@@ -1,0 +1,68 @@
+.profilePostsContainer {
+    margin-bottom: 40px;
+}
+.profilePostsTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.profilePostImg {
+    object-fit: fill;
+    width: 600px;
+}
+.profilePostsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.profilePostTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 42px;
+    color: #222222;
+    margin-bottom: 24px;
+}
+.profilePostContent {
+    margin-left: 24px;
+}
+.profilePostDates {
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AEBEC9;
+    margin-bottom: 22px;
+}
+.profilePostDash {
+    margin-left: 10px;
+}
+.profilePostEye {
+    margin-left: 8px;
+}
+.profilePostDays {
+    margin-left: 6px;
+}
+.profilePostPeopleRule {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1B5BF7;
+    margin-left: 40px;
+}
+.profilePostDescr {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #555555;
+}

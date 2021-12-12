@@ -1,0 +1,87 @@
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+.footer-logo {
+    width: 103px;
+    height: 34px;
+    margin-bottom: 24px;
+}
+.company__about {
+    font-family: Roboto;
+    width: 360px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 80px;
+}
+.company__copyright {
+    font-family: Roboto;
+    color: #1E2833;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+/* Resources */
+.resources__title {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.resources__list {
+    font-family: Inter;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.resources__item {
+    margin-bottom: 20px;
+}
+.resources__link {
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 16px;
+    color: #1E2833;
+}
+.resources__link:hover {
+    color: #1B5BF7;
+}
+/* About-us */
+.about-us__title {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.about-us__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.about-us__item {
+    margin-bottom: 20px;
+}
+.about-us__link {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 16px;
+    color: #1E2833;
+}
+.about-us__link:hover {
+    color: #1B5BF7;
+}
+.help__title {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.help__text {
+    font-family: Inter;
+    font-size: 16px;
+    color: #1E2833;
+}

@@ -1,0 +1,23 @@
+.post-aside-item {
+    width: 350px;
+    display: flex;
+    font-family: Roboto, Arial, sans-serif;
+}
+.post-aside-item__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}
+.post-aside-img {
+    width: 105px;
+    height: 100px;
+    flex-shrink: 0;
+}
+.post-aside-item-content {
+    margin-left: 22px;
+}

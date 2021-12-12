@@ -1,0 +1,206 @@
+.header {
+    padding-top: 20px;
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    width: 146px;
+    height: 48px;
+}
+.header-reg-panel {
+    display: flex;
+    align-items: center;
+}
+.header-notification-btn {
+    border: none;
+    cursor: pointer;
+    background: #fff;
+}
+.header-notification-count {
+    font-family: Inter;
+    font-size: 14px;
+    position: relative;
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: #F76659;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: #fff;
+    top: -15px;
+    right: 45px;
+}
+.header-notification {
+    width: 32px;
+    height: 32px;
+    margin-right: 24px;
+}
+.header-login {
+    font-family: Inter;
+    border: none;
+    background: #1B5BF7;
+    padding: 16px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+/* Modal */
+.user-profile__dash {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    width: 150px;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    display: none;
+}
+.user-profile__out {
+    box-sizing: border-box;
+    padding: 6px;
+    margin-top: 9px;
+    border: none;
+    background-color: #fff;
+    width: 80%;
+    border-radius: 6px;
+    margin-left: 8px;
+    color: #222;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.user-profile__saved {
+    cursor: pointer;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 6px;
+    margin-top: 9px;
+    border: none;
+    background-color: #fff;
+    width: 80%;
+    border-radius: 6px;
+    margin-left: 8px;
+    color: #222;
+}
+.user-profile__create {
+    cursor: pointer;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 6px;
+    margin-top: 9px;
+    border: none;
+    background-color: #fff;
+    width: 80%;
+    border-radius: 6px;
+    margin-left: 8px;
+    color: #222;
+}
+.user-profile__btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.user-profile__img {
+    width: 56px;
+    height: 56px;
+
+}
+.modal-close {
+    font-family: Roboto, Arial, sans-serif;
+    position: absolute;
+    font-weight: bolder;
+    top: 5px;
+    right: 5px;
+    border: none;
+    background: transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+.modal-title {
+    padding-top: 20px;
+    text-align: center;
+    font-family: Roboto,Arial,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.modal {
+    position: absolute;
+    min-width: 400px;
+    height: 300px;
+    top: 30%;
+    background-color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    padding: 20px;
+    border-radius: 8px;
+    display: none;
+}
+.user-profile__dash.visible {
+    display: block;
+}
+.modal.visible {
+    display: block;
+}
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-form input::placeholder {
+    font-size: 15px;
+    color: #9AA6AC;
+}
+.modal-form input:focus {
+    border-color: #1B5BF7;
+}
+.modal-form input {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    padding: 9px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    border: none;
+    background-color: #EEF0F2;
+    border-radius: 6px;
+}
+.modal-submit {
+    font-family: "Roboto", Arial, sans-serif;
+    border: none;
+    width: 80%;
+    padding: 9px;
+    font-size: 18px;
+    background-color: #1B5BF7;
+    color: #fff;
+    border-radius: 6px;
+}
+.overlay {
+    position: fixed;
+    background: rgba(34, 34, 34, 0.7);
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}

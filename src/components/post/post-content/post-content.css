@@ -1,0 +1,45 @@
+.post-content {
+    display: flex;
+    justify-content: space-between;
+}
+.main-post {
+    width: 400px;
+}
+.hero-img {
+    width: 460px;
+    margin-bottom: 16px;
+}
+.main-post-author {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.main-post-date {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    color: #AEBEC9;
+    margin-bottom: 32px;
+}
+.main-post-eye {
+    margin-left: 20px;
+}
+.main-post-views {
+    margin-left: 3px;
+    position: relative;
+}
+.main-post-views:before {
+    content: "|";
+    position: absolute;
+    right: 55px;
+}
+.main-post-text__title {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 22px;
+}
+.main-post-text__body {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 18px;
+}

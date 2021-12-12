@@ -1,0 +1,21 @@
+.profileHeader {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.profileNavList {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.profileNavItem:not(:first-child) {
+    margin-left: 30px;
+}
+.profileNavLink {
+    font-family: 'Roboto', Arial, sans-serif;
+    text-decoration: none;
+    color: #000;
+}

@@ -1,0 +1,41 @@
+.profileAvatar {
+    display: flex;
+    margin-bottom: 80px;
+}
+.profileAvatarImg {
+    width: 200px;
+    height: 200px;
+}
+.profileAvatarInfo {
+    margin-left: 54px;
+}
+.profileAvatarInfo__title {
+    margin-bottom: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #222222;
+}
+.ProfileAvatarInfo__container {
+    display: flex;
+    justify-content: space-between;
+}
+.ProfileAvatarInfo__datas {
+    display: flex;
+    flex-direction: column;
+}
+.ProfileAvatarInfo__keys {
+    display: flex;
+    flex-direction: column;
+    margin-left: 88px;
+}
+.profileAvatarInfo__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+}

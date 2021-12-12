@@ -1,0 +1,37 @@
+.post-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post-profile__avatar {
+    flex-shrink: 1;
+    width: 99px;
+    height: 99px;
+    margin-bottom: 14px;
+}
+.post-profile__name {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #2D2D2D;
+    margin-bottom: 19px;
+}
+.post-profile__follow {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 37px;
+    background: #1B5BF7;
+    color: #fff;
+    font-size: 18px;
+    font-family: Roboto, Arial, sans-serif;
+}
+.post-profile__saved {
+    border: none;
+    padding: 12px 15px;
+    background-color: #1B5BF7;
+    border-radius: 8px;
+    margin-left: 18px;
+}
+
